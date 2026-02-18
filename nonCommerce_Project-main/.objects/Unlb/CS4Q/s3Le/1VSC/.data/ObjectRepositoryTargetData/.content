@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3iSgZl52Q0y4cY9wpzrChQ" Reference="VmN1QqAjRkOr6LOECczhgA/1VSCyn4Bz06FIa1cBGhFMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/register" CVScreenId="a49b1e50-0648-42e9-b696-0653cd7a6a09" DesignTimeRectangle="601, 611, 400, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='LastName' tag='INPUT' type='text' class='' aaname='Last name:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="0ceb3a34-156e-4862-b1bf-a5bf813f0de9" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Register' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a49b1e50-0648-42e9-b696-0653cd7a6a09" CvTextArea="520, 464, 70, 13" CvTextArgument="Last name:" CvType="Text" DesignTimeRectangle="216, 611, 375, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Last name:' parentid='main' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Last name:' /&gt;" Guid="2ada5ec3-ccb5-459b-a72c-8ba6c0d45a7f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bea09af194051ad28b9020a9e491cd4f.jpg" xmlns="">0vwZ2CZdIG0a-jwdCsEYwRg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

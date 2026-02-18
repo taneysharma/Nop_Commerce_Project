@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0_JWMLeeWU-kcVHDPA9y7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/register" CVScreenId="552265c2-b482-4248-b5fa-553f6132e7ed" CvElementArea="598, 369, 18, 18" CvType="RadioButton" DesignTimeRectangle="601, 371, 13, 13" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='gender-male' tag='INPUT' type='radio' class='' aaname='Male' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="21ada2d4-726c-4b3b-8695-8078218da255" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Register' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="552265c2-b482-4248-b5fa-553f6132e7ed" DesignTimeRectangle="619, 369, 30, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='gender' tag='LABEL' type='' class='forcheckbox' aaname='Male' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Male' /&gt;" Guid="0117ed88-537e-4e8b-b5ca-b2c14ae394fa" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4de2e5292e07a909b002200e3ad23812.jpg" xmlns="">0ZwzJs-yCmkWiTAz-owrP6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Newsletter",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "0NMynrATs0OxPsAZhFbz0A",
+  "Reference": "VmN1QqAjRkOr6LOECczhgA/0NMynrATs0OxPsAZhFbz0A",
+  "ParentRef": "VmN1QqAjRkOr6LOECczhgA/s3LeuP-KMUqHEmeJlojrNw",
+  "Created": "2026-02-17T07:45:45.5400963Z",
+  "Updated": "2026-02-17T07:45:45.5400963Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

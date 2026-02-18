@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="re7QrA1RLkaZlHspo8eZpQ" Reference="VmN1QqAjRkOr6LOECczhgA/ITJQkR5w4k-NVTSTC-LAfw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/register" CVScreenId="a2a76bcf-4217-4f1c-aeed-92f56553c956" DesignTimeRectangle="601, 666, 400, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='Email' tag='INPUT' type='email' class='' aaname='Email:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6fa50fb9-6e9e-473f-a531-da056840bede" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Register' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="216, 666, 375, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Email:' parentid='main' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Email:' /&gt;" Guid="fa5142cb-d98c-4e4c-a965-db48decd77dd" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3a56d97cc49603e09061eadcd5eeea4e.jpg" xmlns="">0z4jyjSQpxkCd6JgKtHkybA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

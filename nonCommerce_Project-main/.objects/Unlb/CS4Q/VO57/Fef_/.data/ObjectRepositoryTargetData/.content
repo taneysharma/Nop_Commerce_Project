@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jYAeCrgb2UaYYtvX8fjNYw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/register" CVScreenId="5e7244d3-0ee5-49d4-b46e-7e61fc57e3be" DesignTimeRectangle="199, 713, 400, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='Company' tag='INPUT' type='text' class='' aaname='Company name:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2ea5093f-fc19-4117-acfb-7ae73b754a48" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Register' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="994e1fe1c5240b95588db48d849eefc3.jpg" xmlns="">0roYlOFXZLkCu4RI04rhnUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "chrome.exe nopCommerce …",
+  "Type": "Element",
+  "Id": "p3DHzwiIOUST0JQRX8xHoQ",
+  "Reference": "VmN1QqAjRkOr6LOECczhgA/p3DHzwiIOUST0JQRX8xHoQ",
+  "ParentRef": "VmN1QqAjRkOr6LOECczhgA/s3LeuP-KMUqHEmeJlojrNw",
+  "Created": "2026-02-18T07:26:18.6129092Z",
+  "Updated": "2026-02-18T07:26:18.6129092Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

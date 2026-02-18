@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Verification target(2)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "tdGH9fdtg0Kz5TCFYPDZJQ",
+  "Reference": "VmN1QqAjRkOr6LOECczhgA/tdGH9fdtg0Kz5TCFYPDZJQ",
+  "ParentRef": "VmN1QqAjRkOr6LOECczhgA/VO57fbMj9ESJEJ5yg9QEVw",
+  "Created": "2026-02-18T07:34:13.4194706Z",
+  "Updated": "2026-02-18T07:34:13.4194706Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

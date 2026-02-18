@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Skip navigationUS Dolla…",
+  "Type": "Element",
+  "Id": "pjwpJCQE1EuWwZ8aEoTKUQ",
+  "Reference": "VmN1QqAjRkOr6LOECczhgA/pjwpJCQE1EuWwZ8aEoTKUQ",
+  "ParentRef": "VmN1QqAjRkOr6LOECczhgA/s3LeuP-KMUqHEmeJlojrNw",
+  "Created": "2026-02-18T09:56:42.788736Z",
+  "Updated": "2026-02-18T09:56:42.788736Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

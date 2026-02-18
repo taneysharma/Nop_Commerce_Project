@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LSLVPc8v3EWA5mV9qzPkAA" Reference="VmN1QqAjRkOr6LOECczhgA/BkOIj6XtlEaQwaiZPwBTBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/register" CVScreenId="a49b1e50-0648-42e9-b696-0653cd7a6a09" DesignTimeRectangle="601, 556, 400, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='FirstName' tag='INPUT' type='text' class='' aaname='First name:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d0309f08-566e-4aad-8cf5-1a0f56497ad4" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Register' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a49b1e50-0648-42e9-b696-0653cd7a6a09" CvTextArea="520, 409, 70, 13" CvTextArgument="First name:" CvType="Text" DesignTimeRectangle="216, 556, 375, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='First name:' parentid='main' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='First name:' /&gt;" Guid="6100b1f5-c3b9-441b-aca5-821bc6e1aee4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="caf5817a7110b2e9bd52d75cc307c39d.jpg" xmlns="">0L1R_jkFZQUWxU0B0MW8qtQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

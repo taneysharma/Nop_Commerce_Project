@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Male",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "0ucqIP5RQ0ur4y2NZnsOog",
+  "Reference": "VmN1QqAjRkOr6LOECczhgA/0ucqIP5RQ0ur4y2NZnsOog",
+  "ParentRef": "VmN1QqAjRkOr6LOECczhgA/s3LeuP-KMUqHEmeJlojrNw",
+  "Created": "2026-02-17T07:40:52.6179768Z",
+  "Updated": "2026-02-17T07:40:52.6179768Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

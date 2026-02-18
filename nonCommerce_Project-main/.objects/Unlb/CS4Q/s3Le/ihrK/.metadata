@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Confirm password",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "ihrKg5wN5U6atxF3Od7Dgw",
+  "Reference": "VmN1QqAjRkOr6LOECczhgA/ihrKg5wN5U6atxF3Od7Dgw",
+  "ParentRef": "VmN1QqAjRkOr6LOECczhgA/s3LeuP-KMUqHEmeJlojrNw",
+  "Created": "2026-02-17T07:46:26.592925Z",
+  "Updated": "2026-02-17T07:46:26.592925Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

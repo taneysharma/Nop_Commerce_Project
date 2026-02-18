@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="5rv8gS3rxUqnOHYvbPfeBw" Reference="VmN1QqAjRkOr6LOECczhgA/s3LeuP-KMUqHEmeJlojrNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1616, 868" BrowserType="Chrome" ContentHash="JkutdpZ3b0GrASUMBrCgOw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGrSURBVDhPxZI7SNZhFMa9JQlRS4HgkAhPUUMmYkpIOknSUOFQfBHkYItDs34Q0uCFoByaglxEqMkhGkKILhBPlyUIokH7QQ0Ozi5Kyek7f/gXTi6+y3tu7/Oe55ynrm4/jky9zIG4/8/temRaZU7INMockbkr80LmdrkoUA/m3SYzLtMv0y3zUeaXzKDMNZltmT8y78sAl2ReylyVWcyCpzKTaW8kYK/MB5l3MpeLxy0yKzKbMjdklmVWZUZkOmQmZIaSQnR4UqYz5lAANMhcCUSZ5kz2ZbxH5r7M9Xw8IPNJ5odMtQA4LfNY5qbMOZnPMm+SfxQHhe85m4X0azOQaSpxjuRM2l9kLiSV8JdyyGMyP2W+ylQCIHhNy7zKdqODh9lqUIi7InMsu439d8mcinwROCvTnhwjGZs4FI9ygHMyxxNgWOZtbmEkAlWZdZl5mfMy5J5HZe6V+E7JHJZxKfYtANbSeSRzJ+0tmVsyz9L/nblQYYiqAHgdAME/BhRSPZMSnc3fLqY+HsgcLVF4LvMk1l1soSaIWkFMujHtQt5//VJNaOWf2J7PDjUun3NPOXFfAAAAAElFTkSuQmCC" Reference="VmN1QqAjRkOr6LOECczhgA/s3LeuP-KMUqHEmeJlojrNw" Selector="&lt;html app='chrome.exe' title='nopCommerce demo store. Home page title' /&gt;" Url="https://demo.nopcommerce.com/" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="ee80684d0697437d8e0ec46dbd297790.jpg" xmlns="">0ASaKYq_g7ECD0RNO2tv3Aw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

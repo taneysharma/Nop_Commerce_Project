@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RnWtWZV5ckiSNZkHtuLm3g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/register" CVScreenId="d00d441c-08e3-4f32-bffd-46528783f68d" CvElementArea="729, 479, 143, 41" CvTextArea="761, 492, 79, 14" CvTextArgument="REGISTER" CvType="Button" DesignTimeRectangle="731, 481, 140, 37" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='register-button' tag='BUTTON' /&gt;" Guid="4981951e-2996-4b96-9fd2-f8fc2fa1a4a2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Register' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1e8e2c512765bc874c2ed4e3f73671bf.jpg" xmlns="">0_e3xxYtWD0yvfimYSBhqSA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome nopCommerce demo store. Home page titl",
+  "Type": "Screen",
+  "Id": "HHkRQWUY60S6QA2SZsPn_Q",
+  "Reference": "9seDffVmFEqYkiebMUc-ZQ/HHkRQWUY60S6QA2SZsPn_Q",
+  "ParentRef": "9seDffVmFEqYkiebMUc-ZQ/kPlsjmHFT0irkwIWpwGSbw",
+  "Created": "2026-02-18T12:38:18.0943165Z",
+  "Updated": "2026-02-18T12:38:18.0943165Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

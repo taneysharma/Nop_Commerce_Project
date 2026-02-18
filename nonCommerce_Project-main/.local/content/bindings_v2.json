@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "activityDisplayName": "Get Credential",
+      "activityId": "GetRobotCredential_1",
+      "resource": "asset",
+      "key": "ganishagarg123@gmail.com's workspace.CredentialsInfo",
+      "id": "assetganishagarg123@gmail.com's workspace.CredentialsInfoganishagarg123@gmail.com's workspaceFalseCredentialsInfoFalse",
+      "value": {
+        "folderPath": {
+          "defaultValue": "ganishagarg123@gmail.com's workspace",
+          "isExpression": false
+        },
+        "name": {
+          "defaultValue": "CredentialsInfo",
+          "isExpression": false
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2"
+      }
+    }
+  ]
+}

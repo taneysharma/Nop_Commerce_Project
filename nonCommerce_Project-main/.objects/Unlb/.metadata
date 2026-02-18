@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome nopCommerce demo store. Home page title",
+  "Type": "App",
+  "Id": "Unlby4YmB0arjEQ-UME2Gg",
+  "Reference": "VmN1QqAjRkOr6LOECczhgA/Unlby4YmB0arjEQ-UME2Gg",
+  "Created": "2026-02-17T07:38:48.5671255Z",
+  "Updated": "2026-02-17T07:38:48.5671255Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
