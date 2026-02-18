@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="saU9R_JyYEaZb6nog3quEQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="6e2516eb-f08c-48a7-985f-187f1659ade3" CvElementArea="496, 424, 404, 41" CvType="InputBox" DesignTimeRectangle="499, 425, 400, 40" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='BillingNewAddress_StateProvinceId' tag='SELECT' type='' class='valid' aaname='State / province:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f68f32a8-ef46-402d-8065-069cc75521db" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6e2516eb-f08c-48a7-985f-187f1659ade3" DesignTimeRectangle="224, 425, 265, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='State / province:' parentid='billing-new-address-form' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='State / province:' /&gt;" Guid="abbd6c0f-56c4-40a6-b61b-4849dd2a4886" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fc20b9c2ae88c80f5477663bd2829a87.jpg" xmlns="">0CeO7ZjGTdE-K8mFzG56GDA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

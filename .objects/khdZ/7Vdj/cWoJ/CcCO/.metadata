@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click here for order de…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "CcCOvGNABE20QWdZOstrQQ",
+  "Reference": "xcsNvZlMwUGTfKN4ZfG1wA/CcCOvGNABE20QWdZOstrQQ",
+  "ParentRef": "xcsNvZlMwUGTfKN4ZfG1wA/cWoJ2xIT10u6zBTuL6JRhQ",
+  "Created": "2026-02-18T11:55:25.9844749Z",
+  "Updated": "2026-02-18T11:55:25.9844749Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

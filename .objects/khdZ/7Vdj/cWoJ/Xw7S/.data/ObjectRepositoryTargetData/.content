@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2zdPqk8qm0OjZCYh-c70jQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/onepagecheckout" DesignTimeRectangle="209, 177, 950, 400" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='order-review-data' parentid='checkout-confirm-order-load' tag='DIV' /&gt;" Guid="a727697c-723e-4bf8-b3b5-a4e51565ecc5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b4f55284044f2e4301a4f47baf73d31f.jpg" xmlns="">0eYMHnW23f0yLkPPZ3kV_ew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

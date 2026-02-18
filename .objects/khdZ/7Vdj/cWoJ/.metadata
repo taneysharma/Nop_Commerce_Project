@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome nopCommerce demo store. Checkout",
+  "Type": "Screen",
+  "Id": "cWoJ2xIT10u6zBTuL6JRhQ",
+  "Reference": "xcsNvZlMwUGTfKN4ZfG1wA/cWoJ2xIT10u6zBTuL6JRhQ",
+  "ParentRef": "xcsNvZlMwUGTfKN4ZfG1wA/7VdjSTdKtkuRCedCt69Kbw",
+  "Created": "2026-02-18T10:34:59.3965283Z",
+  "Updated": "2026-02-18T10:34:59.3965283Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

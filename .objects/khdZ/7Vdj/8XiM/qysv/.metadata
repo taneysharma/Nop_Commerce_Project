@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Computers",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "qysvXiF1XUe2w2x2R4PP2A",
+  "Reference": "xcsNvZlMwUGTfKN4ZfG1wA/qysvXiF1XUe2w2x2R4PP2A",
+  "ParentRef": "xcsNvZlMwUGTfKN4ZfG1wA/8XiMIhGYHkeJla37lLSp1Q",
+  "Created": "2026-02-18T09:21:59.3572534Z",
+  "Updated": "2026-02-18T09:21:59.3572534Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

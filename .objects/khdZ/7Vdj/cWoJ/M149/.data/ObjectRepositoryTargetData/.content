@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YdhlmejXfUqT7xoMKhLZQQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="e03dbe71-839a-4786-9b82-63f7c551be34" DesignTimeRectangle="614, 506, 140, 37" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='save' parentid='payment-method-buttons-container' tag='BUTTON' type='button' /&gt;" Guid="42d827ac-0825-4b9d-9122-dcbf2dbcb755" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e7519b6ca3a594877747dc2f6fc372d2.jpg" xmlns="">05e1LfT9Yx0KwP7PpAvdGtA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

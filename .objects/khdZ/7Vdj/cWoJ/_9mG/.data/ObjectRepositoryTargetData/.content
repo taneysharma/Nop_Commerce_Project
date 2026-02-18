@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TDL_llZRWUyl-UAWWw2e9A" Reference="xcsNvZlMwUGTfKN4ZfG1wA/_9mGVnHhUE2Nv0SK_HIp_g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="1d6380df-4e40-4afe-b6b5-b94f5ea9a87f" DesignTimeRectangle="499, 380, 400, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='BillingNewAddress_City' tag='INPUT' type='text' class='' aaname='City:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2697ae3d-4dc2-44a7-9f66-7c989d76f7d1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fdea6f17b831a673dccce0d9d6ef08b1.jpg" xmlns="">0NfCL94qFYkiwcwCYQBlqVA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

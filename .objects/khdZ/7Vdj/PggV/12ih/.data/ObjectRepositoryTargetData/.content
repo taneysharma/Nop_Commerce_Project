@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yBx5rXe-10SpgcQHV8ozdQ" Reference="xcsNvZlMwUGTfKN4ZfG1wA/12ihEY_0KkWgMi4kgyMCwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/search" CVScreenId="05c4a8be-8b4a-441e-8d72-bb0cc0833f1d" DesignTimeRectangle="462, 248, 231, 231" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Show details for Apple MacBook Pro' parentid='main' src='https://demo.nopcommerce.com/images/thumbs/0000024_apple-macbook-pro_415.jpeg' tag='IMG' /&gt;" Guid="1e393f4e-7676-4593-ad26-f9226aeeeed6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Search' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bb87a3d042bcd3e8bb4e5371a8a1efdf.jpg" xmlns="">0ca8Eaujc2UCWEedVzXQ3Og</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

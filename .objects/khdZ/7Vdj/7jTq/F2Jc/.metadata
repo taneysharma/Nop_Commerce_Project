@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT small-searchterms",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "F2JcF5PvGEOcn2jZxytCbg",
+  "Reference": "xcsNvZlMwUGTfKN4ZfG1wA/F2JcF5PvGEOcn2jZxytCbg",
+  "ParentRef": "xcsNvZlMwUGTfKN4ZfG1wA/7jTqUisztEatthGgM1bEVw",
+  "Created": "2026-02-18T07:51:47.0277956Z",
+  "Updated": "2026-02-18T07:51:47.0277956Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

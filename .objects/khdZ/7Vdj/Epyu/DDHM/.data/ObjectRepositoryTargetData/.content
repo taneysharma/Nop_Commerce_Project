@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="A2rEz-BbGUqNCaWilft7-w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/apple-macbook-pro" DesignTimeRectangle="8, 94, 1366, 1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='nopCommerce demo store. Apple MacBook Pro - Google Chrome' role='pane' /&gt;&lt;ctrl idx='39' role='pane' /&gt;" Guid="b94bdd4f-4bf8-4e91-97c5-07eea53db48f" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='nopCommerce demo store. Apple MacBook Pro - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9e3fb46b1b397490120b5892a50b1fe1.jpg" xmlns="">0u5fTHdRWLE6Uij4Q3RLoaw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

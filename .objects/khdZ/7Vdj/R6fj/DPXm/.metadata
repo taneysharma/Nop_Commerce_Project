@@ -1,0 +1,14 @@
+﻿{
+  "Name": "The product has been ad…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "DPXmTzr_OUejyGCgwZkT5Q",
+  "Reference": "xcsNvZlMwUGTfKN4ZfG1wA/DPXmTzr_OUejyGCgwZkT5Q",
+  "ParentRef": "xcsNvZlMwUGTfKN4ZfG1wA/R6fjbdLW50GL7jVaZlxBoA",
+  "Created": "2026-02-18T09:10:41.1085688Z",
+  "Updated": "2026-02-18T09:10:41.1085688Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

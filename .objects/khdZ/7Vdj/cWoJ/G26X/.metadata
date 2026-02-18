@@ -1,0 +1,14 @@
+﻿{
+  "Name": "COMPANY NAME your addre…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "G26X4-BG9UqmwEhNyC-qjw",
+  "Reference": "xcsNvZlMwUGTfKN4ZfG1wA/G26X4-BG9UqmwEhNyC-qjw",
+  "ParentRef": "xcsNvZlMwUGTfKN4ZfG1wA/cWoJ2xIT10u6zBTuL6JRhQ",
+  "Created": "2026-02-18T11:47:02.2912378Z",
+  "Updated": "2026-02-18T11:47:02.2912378Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

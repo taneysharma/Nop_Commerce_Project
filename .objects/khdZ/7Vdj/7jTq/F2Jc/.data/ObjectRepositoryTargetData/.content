@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zGdj_VMxukmklQfUTRevHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com" CVScreenId="51d459b0-66d4-4907-a644-16d887ee5d4e" DesignTimeRectangle="806, 228, 280, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='small-searchterms' tag='INPUT' /&gt;" Guid="3c33749e-9ead-4eb8-b719-82bced0b5df8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Home page title' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fda7dda2707be3e25e9846d7abe14044.jpg" xmlns="">0B8F8YfupNEKoKT8WryIPxw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

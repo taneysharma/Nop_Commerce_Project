@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Your order has been suc…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "y4KqRSyu90GZLkQoO2VQMg",
+  "Reference": "xcsNvZlMwUGTfKN4ZfG1wA/y4KqRSyu90GZLkQoO2VQMg",
+  "ParentRef": "xcsNvZlMwUGTfKN4ZfG1wA/cWoJ2xIT10u6zBTuL6JRhQ",
+  "Created": "2026-02-18T11:54:29.0908821Z",
+  "Updated": "2026-02-18T11:54:29.0908821Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

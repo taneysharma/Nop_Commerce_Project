@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="5LAITnQou0W_fsX_CR4RnQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;html app='chrome.exe' title='nopCommerce demo store. Apple MacBook Pro' /&gt;" Url="demo.nopcommerce.com/apple-macbook-pro" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KBcZXvIBskW1Oqxl5dxg0A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/orderdetails/6" DesignTimeRectangle="8, 147, 1351, 2069" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='master-wrapper-page' tag='DIV' /&gt;" Guid="4b295adb-b4ae-4bed-b86c-a0a337f1e2a3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Order Details' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a7d93f39ec263bb7ec347d77d7af7e23.jpg" xmlns="">0JH2cQD23HkqjWYvM3hWaCQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="J2wR8Il3e0OR3tWdaIGLtw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/onepagecheckout" DesignTimeRectangle="209, 227, 950, 219" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='info' parentid='checkout-payment-info-load' tag='DIV' /&gt;" Guid="2555d77d-3810-4e42-b8ba-a3ebb4d34777" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4c7cd87dd359c005b7ca4ad29dc0986c.jpg" xmlns="">0xpPzJqccSUqharn0Y6yxqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TrajEf3CuEGmO3Wu43avzQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/cart" CVScreenId="be52616f-5919-4a4e-af85-68689d398e52" CvElementArea="746, 514, 16, 16" CvType="CheckBox" DesignTimeRectangle="748, 515, 13, 13" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='termsofservice' tag='INPUT' type='checkbox' class='' aaname='I agree with the terms of service and I adhere to them unconditionally' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6ccaaba4-54f1-4057-bb8c-638ce2909942" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Shopping Cart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="748, 513, 348, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='I agree with the terms of service and I adhere to them unconditionally' parentid='shopping-cart-form' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='I agree with the terms of service and I adhere to them unconditionally' /&gt;" Guid="74e705b4-d84a-4969-9410-c2f6d4f069ea" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1679715ee632d92cb0a44831bfbd2afd.jpg" xmlns="">0LGidGtyGpESFZvMCbEyvog</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

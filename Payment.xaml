@@ -1,0 +1,607 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Payment" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd2="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="get" Type="InArgument(sd:DataTable)" />
+    <x:Property Name="Address1_In" Type="InArgument(x:String)" />
+    <x:Property Name="ZIP_In" Type="InArgument(x:String)" />
+    <x:Property Name="PhoneNo_In" Type="InArgument(x:String)" />
+    <x:Property Name="City_In" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="727,6444" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="FirstName" />
+      <Variable x:TypeArguments="x:String" Name="LastName_Out" />
+      <Variable x:TypeArguments="x:String" Name="CompanyName_Out" />
+      <Variable x:TypeArguments="x:String" Name="City_Out" />
+      <Variable x:TypeArguments="x:String" Name="ZIP_Out" />
+      <Variable x:TypeArguments="x:String" Name="Address1_Out" />
+      <Variable x:TypeArguments="x:String" Name="PhoneNo_Out" />
+      <Variable x:TypeArguments="x:String" Name="gender" />
+      <Variable x:TypeArguments="sd:DataTable" Name="get1" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="488,227" sap2010:WorkflowViewState.IdRef="ReadRange_3" SheetName="Sheet1">
+      <ui:ReadRange.DataTable>
+        <OutArgument x:TypeArguments="sd:DataTable">
+          <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_20">get</CSharpReference>
+        </OutArgument>
+      </ui:ReadRange.DataTable>
+      <ui:ReadRange.WorkbookPath>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">@"C:\Users\Testing\Downloads\nonCommerce_Project-main\nonCommerce_Project-main\data.xlsx"</CSharpValue>
+        </InArgument>
+      </ui:ReadRange.WorkbookPath>
+    </ui:ReadRange>
+    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="488,242" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+      <ui:MultipleAssign.AssignOperations>
+        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">
+                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">City_Out</CSharpReference>
+              </OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">get.Rows[0]["City"].ToString()</CSharpValue>
+              </InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">
+                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_11">ZIP_Out</CSharpReference>
+              </OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">get.Rows[0]["ZIP"].ToString()</CSharpValue>
+              </InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">
+                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">Address1_Out</CSharpReference>
+              </OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">get.Rows[0]["Address1"].ToString()</CSharpValue>
+              </InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">
+                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_13">PhoneNo_Out</CSharpReference>
+              </OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_17">get.Rows[0]["PhoneNo"].ToString()</CSharpValue>
+              </InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+        </scg:List>
+      </ui:MultipleAssign.AssignOperations>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:MultipleAssign>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome nopCommerce demo store. Checkout" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,5952" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,5758" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,319" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="5" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NMouseScroll.SearchedElement>
+                <uix:SearchedElement>
+                  <uix:SearchedElement.InUiElement>
+                    <InArgument x:TypeArguments="ui:UiElement" />
+                  </uix:SearchedElement.InUiElement>
+                  <uix:SearchedElement.OutUiElement>
+                    <OutArgument x:TypeArguments="ui:UiElement" />
+                  </uix:SearchedElement.OutUiElement>
+                  <uix:SearchedElement.Target>
+                    <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" ContentHash="imSCakmwAECyxmDr21Y96g" DesignTimeRectangle="194, 165, 980, 1234" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;section&amp;gt;div' parentid='main' tag='DIV' /&gt;" Guid="f37023e4-dcff-47b2-a439-0c79f35bc5b3" InformativeScreenshot="83906b5b3d962e83d386e2ad9cd9b988.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/eTfcY215q0uZ0_Zz5Dpdkg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:SearchedElement.Target>
+                  <uix:SearchedElement.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:SearchedElement.Timeout>
+                </uix:SearchedElement>
+              </uix:NMouseScroll.SearchedElement>
+            </uix:NMouseScroll>
+            <uix:NSelectItem DisplayName="Select Item 'Country'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,204" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="India" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="50">
+                  <x:String>French Southern Territories</x:String>
+                  <x:String>Gabon</x:String>
+                  <x:String>Gambia</x:String>
+                  <x:String>Georgia</x:String>
+                  <x:String>Germany</x:String>
+                  <x:String>Ghana</x:String>
+                  <x:String>Gibraltar</x:String>
+                  <x:String>Greece</x:String>
+                  <x:String>Greenland</x:String>
+                  <x:String>Grenada</x:String>
+                  <x:String>Guadeloupe</x:String>
+                  <x:String>Guam</x:String>
+                  <x:String>Guatemala</x:String>
+                  <x:String>Guernsey</x:String>
+                  <x:String>Guinea</x:String>
+                  <x:String>Guinea-Bissau</x:String>
+                  <x:String>Guyana</x:String>
+                  <x:String>Haiti</x:String>
+                  <x:String>Heard Island and McDonald Islands</x:String>
+                  <x:String>Holy See</x:String>
+                  <x:String>Honduras</x:String>
+                  <x:String>Hong Kong</x:String>
+                  <x:String>Hungary</x:String>
+                  <x:String>Iceland</x:String>
+                  <x:String>India</x:String>
+                  <x:String>Indonesia</x:String>
+                  <x:String>Iran (Islamic Republic of)</x:String>
+                  <x:String>Iraq</x:String>
+                  <x:String>Ireland</x:String>
+                  <x:String>Isle of Man</x:String>
+                  <x:String>Israel</x:String>
+                  <x:String>Italy</x:String>
+                  <x:String>Jamaica</x:String>
+                  <x:String>Japan</x:String>
+                  <x:String>Jersey</x:String>
+                  <x:String>Jordan</x:String>
+                  <x:String>Kazakhstan</x:String>
+                  <x:String>Kenya</x:String>
+                  <x:String>Kiribati</x:String>
+                  <x:String>Korea (Democratic People's Republic of)</x:String>
+                  <x:String>Korea (Republic of)</x:String>
+                  <x:String>Kuwait</x:String>
+                  <x:String>Kyrgyzstan</x:String>
+                  <x:String>Lao People's Democratic Republic</x:String>
+                  <x:String>Latvia</x:String>
+                  <x:String>Lebanon</x:String>
+                  <x:String>Lesotho</x:String>
+                  <x:String>Liberia</x:String>
+                  <x:String>Libya</x:String>
+                  <x:String>Liechtenstein</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="53b5171b-5d92-4646-8f9b-5010b54e1784" ContentHash="nUtgYHiqB0aDJ6HoTuEVlA" CvElementArea="496, 517, 406, 42" CvType="InputBox" DesignTimeRectangle="499, 570, 400, 40" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='BillingNewAddress_CountryId' tag='SELECT' type='' class='valid' aaname='Country:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="134bde69-bc13-4212-a048-9df622d45119" InformativeScreenshot="c03d0d5dc244e8438e4ccb63860ed569.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/yxPPWK9aIkqrhuElVPDqtA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="53b5171b-5d92-4646-8f9b-5010b54e1784" DesignTimeRectangle="224, 570, 265, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Country:' parentid='billing-new-address-form' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Country:' /&gt;" Guid="93ad810c-0df8-4ca3-92cb-e7ac5180190f" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NSelectItem DisplayName="Select Item 'State / province'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,204" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="Punjab" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="37">
+                  <x:String>Select state</x:String>
+                  <x:String>Andaman and Nicobar Islands</x:String>
+                  <x:String>Andhra Pradesh</x:String>
+                  <x:String>Arunachal Pradesh</x:String>
+                  <x:String>Assam</x:String>
+                  <x:String>Bihar</x:String>
+                  <x:String>Chandigarh</x:String>
+                  <x:String>Chhattisgarh</x:String>
+                  <x:String>Dadra and Nagar Haveli</x:String>
+                  <x:String>Daman and Diu</x:String>
+                  <x:String>Delhi</x:String>
+                  <x:String>Goa</x:String>
+                  <x:String>Gujarat</x:String>
+                  <x:String>Haryana</x:String>
+                  <x:String>Himachal Pradesh</x:String>
+                  <x:String>Jammu and Kashmir</x:String>
+                  <x:String>Jharkhand</x:String>
+                  <x:String>Karnataka</x:String>
+                  <x:String>Kerala</x:String>
+                  <x:String>Lakshadweep</x:String>
+                  <x:String>Madhya Pradesh</x:String>
+                  <x:String>Maharashtra</x:String>
+                  <x:String>Manipur</x:String>
+                  <x:String>Meghalaya</x:String>
+                  <x:String>Mizoram</x:String>
+                  <x:String>Nagaland</x:String>
+                  <x:String>Odisha</x:String>
+                  <x:String>Puducherry</x:String>
+                  <x:String>Punjab</x:String>
+                  <x:String>Rajasthan</x:String>
+                  <x:String>Sikkim</x:String>
+                  <x:String>Tamil Nadu</x:String>
+                  <x:String>Telangana</x:String>
+                  <x:String>Tripura</x:String>
+                  <x:String>Uttar Pradesh</x:String>
+                  <x:String>Uttarakhand</x:String>
+                  <x:String>West Bengal</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="6e2516eb-f08c-48a7-985f-187f1659ade3" ContentHash="saU9R_JyYEaZb6nog3quEQ" CvElementArea="496, 424, 404, 41" CvType="InputBox" DesignTimeRectangle="499, 425, 400, 40" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='BillingNewAddress_StateProvinceId' tag='SELECT' type='' class='valid' aaname='State / province:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f68f32a8-ef46-402d-8065-069cc75521db" InformativeScreenshot="fc20b9c2ae88c80f5477663bd2829a87.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/u4bQUhQsUECMn0kvADvjKg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="6e2516eb-f08c-48a7-985f-187f1659ade3" DesignTimeRectangle="224, 425, 265, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='State / province:' parentid='billing-new-address-form' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='State / province:' /&gt;" Guid="abbd6c0f-56c4-40a6-b61b-4849dd2a4886" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'City'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="1d6380df-4e40-4afe-b6b5-b94f5ea9a87f" ContentHash="TDL_llZRWUyl-UAWWw2e9A" DesignTimeRectangle="499, 380, 400, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='BillingNewAddress_City' tag='INPUT' type='text' class='' aaname='City:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2697ae3d-4dc2-44a7-9f66-7c989d76f7d1" InformativeScreenshot="fdea6f17b831a673dccce0d9d6ef08b1.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/_9mGVnHhUE2Nv0SK_HIp_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">City_Out</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT BillingNewAddress…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="5e78f044-9881-4190-90a6-e84d93bf264b" ContentHash="L6sQViX-jUugesNWDOSP7Q" DesignTimeRectangle="499, 338, 400, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='BillingNewAddress_Address1' tag='INPUT' type='text' class='' aaname='Address 1:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="e7394a18-45d8-400a-b634-81dd56c01409" InformativeScreenshot="85fd0468a432d00de1c2e614b9271d18.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/f_xU4z29tEO-P8ojqTKwsg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">Address1_Out</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT BillingNewAddress…(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="5e78f044-9881-4190-90a6-e84d93bf264b" ContentHash="viiOJTaHmE-6YphRSLWvtg" DesignTimeRectangle="499, 448, 400, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='BillingNewAddress_ZipPostalCode' tag='INPUT' type='text' class='' aaname='Zip / postal code:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="bf14b526-197a-4550-b240-0d3d1fc25865" InformativeScreenshot="d34be71a77abe6bc28214872a7da20e3.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/-FfJRB-KoUmdiABS4x7Q2w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">ZIP_Out</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT BillingNewAddress…(2)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="SameAsCard" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="5e78f044-9881-4190-90a6-e84d93bf264b" ContentHash="GF3xI-0loEK9uPklAJjc8w" DesignTimeRectangle="499, 503, 400, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='BillingNewAddress_PhoneNumber' tag='INPUT' type='tel' class='' aaname='Phone number:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="a01b3757-f92d-431c-821f-5607ad0e4646" InformativeScreenshot="8291510cdcfd36707c151ec829f7ab32.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/6UCWR7XqPEezMXgDU7jPHw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">PhoneNo_Out</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="47bc6680-3e93-4a1b-bb2a-ef235a4918f4" ContentHash="eG8uPNCW_Uq9i4-tejWcVA" DesignTimeRectangle="614, 473, 140, 37" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='save' tag='BUTTON' type='button' /&gt;" Guid="a8e52d01-596c-42e4-b83c-e082465f7e6f" InformativeScreenshot="2f2bb89cb6c51f8ec704ae6dedb88c17.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/_oalypgIzUWPcZxboKjYfw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="5ac07ddb-7894-498b-844e-11e053242674" ContentHash="l-maMcJs7EitCQ37ESBFMg" DesignTimeRectangle="614, 381, 140, 37" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='shipping-method-buttons-container' tag='BUTTON' type='button' /&gt;" Guid="07ba2152-3192-4863-82ea-6c6cdd63e3dc" InformativeScreenshot="e7519b6ca3a594877747dc2f6fc372d2.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/VHpTecFuC0-l0VJKr7tdEg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="e03dbe71-839a-4786-9b82-63f7c551be34" ContentHash="YdhlmejXfUqT7xoMKhLZQQ" DesignTimeRectangle="614, 506, 140, 37" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='save' parentid='payment-method-buttons-container' tag='BUTTON' type='button' /&gt;" Guid="42d827ac-0825-4b9d-9122-dcbf2dbcb755" InformativeScreenshot="e7519b6ca3a594877747dc2f6fc372d2.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/M149ljcbd0SnOI9f5z-_zw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Mail Personal or Busine…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,823" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32" xml:space="preserve">"Payment information  appear"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Warn">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">"Payment information doesn't appear"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" ContentHash="J2wR8Il3e0OR3tWdaIGLtw" DesignTimeRectangle="209, 227, 950, 219" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='info' parentid='checkout-payment-info-load' tag='DIV' /&gt;" Guid="2555d77d-3810-4e42-b8ba-a3ebb4d34777" InformativeScreenshot="4c7cd87dd359c005b7ca4ad29dc0986c.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/AEJpmVPTTUm78uPDrOYACw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="5efa962a-86cb-4142-b71e-fc21e8b661b6" ContentHash="8yIKbXINrU6a0vxFf0cVqQ" DesignTimeRectangle="614, 502, 140, 37" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='payment-info-buttons-container' tag='BUTTON' type='button' /&gt;" Guid="5d6f300c-db10-4cfe-9191-f43027221f17" InformativeScreenshot="e7519b6ca3a594877747dc2f6fc372d2.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/wwRZzIMDTUGF8K5B1B-lbQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Billing Address qd sad …'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,823" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Trace">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_33">"Order confirmed"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Warn">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_30">"Order not confirmed"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" ContentHash="38aNRX3ye0WguDMJ5Xm_Ng" DesignTimeRectangle="194, 147, 980, 967" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='checkout-step-confirm-order' tag='DIV' type='' class='step a-item' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="7df43e00-fe27-4600-8a04-22077a9bfc66" InformativeScreenshot="3cb178327f57e5dac0bfa68c12338faa.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/UBlQ6b6DyUWC4CDQJLMcsQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Confirm'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" CVScreenId="1cc993a5-f00a-4c54-86b6-b621e04124d7" ContentHash="YKK2714fOUWUAuPMmPgH6A" DesignTimeRectangle="614, 347, 140, 37" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='confirm-order-buttons-container' tag='BUTTON' type='button' /&gt;" Guid="97a51832-2fbd-441d-8ef3-7c4ab16d6650" InformativeScreenshot="44356b0fd1e72231f7334ffaa94c7893.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/s33y_xXSjUCamrFCOyArCw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Mouse Scroll'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,823" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34">"Order Placed"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Warn">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_31">"Order not placed"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/onepagecheckout" ContentHash="imSCakmwAECyxmDr21Y96g" DesignTimeRectangle="194, 165, 980, 1234" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;section&amp;gt;div' parentid='main' tag='DIV' /&gt;" Guid="f37023e4-dcff-47b2-a439-0c79f35bc5b3" InformativeScreenshot="83906b5b3d962e83d386e2ad9cd9b988.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/eTfcY215q0uZ0_Zz5Dpdkg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click here for order de…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/checkout/completed" CVScreenId="a11a7e8d-f742-4caa-8b4b-eed0907d7bcd" ContentHash="7LHAqyZEfUWa0thCZ1HsEA" DesignTimeRectangle="600, 586, 167, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='main' tag='A' /&gt;" Guid="053c1d74-36f5-468e-b482-0ca7ad8e2efc" InformativeScreenshot="f1cab61c0d4a8972d56ea0f1f088962a.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/CcCOvGNABE20QWdZOstrQQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,310" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="5" ScopeIdentifier="d6daadf1-da27-4d33-bde9-ee5c3dd71983" Version="V5">
+              <uix:NMouseScroll.SearchedElement>
+                <uix:SearchedElement>
+                  <uix:SearchedElement.InUiElement>
+                    <InArgument x:TypeArguments="ui:UiElement" />
+                  </uix:SearchedElement.InUiElement>
+                  <uix:SearchedElement.OutUiElement>
+                    <OutArgument x:TypeArguments="ui:UiElement" />
+                  </uix:SearchedElement.OutUiElement>
+                  <uix:SearchedElement.Target>
+                    <uix:TargetAnchorable BrowserURL="demo.nopcommerce.com/orderdetails/6" ContentHash="KBcZXvIBskW1Oqxl5dxg0A" DesignTimeRectangle="8, 147, 1351, 2069" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='master-wrapper-page' tag='DIV' /&gt;" Guid="4b295adb-b4ae-4bed-b86c-a0a337f1e2a3" InformativeScreenshot="a7d93f39ec263bb7ec347d77d7af7e23.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/d2AQB5vk6U-OBqrpIs10Hg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Order Details' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:SearchedElement.Target>
+                  <uix:SearchedElement.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:SearchedElement.Timeout>
+                </uix:SearchedElement>
+              </uix:NMouseScroll.SearchedElement>
+            </uix:NMouseScroll>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd2:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd1:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-7, 0, 697, 727" BrowserType="Chrome" ContentHash="gvM6bln0_E2qGXW04qTQxg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGrSURBVDhPxZI7SNZhFMa9JQlRS4HgkAhPUUMmYkpIOknSUOFQfBHkYItDs34Q0uCFoByaglxEqMkhGkKILhBPlyUIokH7QQ0Ozi5Kyek7f/gXTi6+y3tu7/Oe55ynrm4/jky9zIG4/8/temRaZU7INMockbkr80LmdrkoUA/m3SYzLtMv0y3zUeaXzKDMNZltmT8y78sAl2ReylyVWcyCpzKTaW8kYK/MB5l3MpeLxy0yKzKbMjdklmVWZUZkOmQmZIaSQnR4UqYz5lAANMhcCUSZ5kz2ZbxH5r7M9Xw8IPNJ5odMtQA4LfNY5qbMOZnPMm+SfxQHhe85m4X0azOQaSpxjuRM2l9kLiSV8JdyyGMyP2W+ylQCIHhNy7zKdqODh9lqUIi7InMsu439d8mcinwROCvTnhwjGZs4FI9ygHMyxxNgWOZtbmEkAlWZdZl5mfMy5J5HZe6V+E7JHJZxKfYtANbSeSRzJ+0tmVsyz9L/nblQYYiqAHgdAME/BhRSPZMSnc3fLqY+HsgcLVF4LvMk1l1soSaIWkFMujHtQt5//VJNaOWf2J7PDjUun3NPOXFfAAAAAElFTkSuQmCC" InformativeScreenshot="2fb8bb2723a4e3c7d37cf66eb6e4998d.jpg" Reference="xcsNvZlMwUGTfKN4ZfG1wA/cWoJ2xIT10u6zBTuL6JRhQ" Selector="&lt;html app='chrome.exe' title='nopCommerce demo store. Checkout' /&gt;" Url="https://demo.nopcommerce.com/onepagecheckout#opc-billing" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XHov0S-QH0qiK56hBeNgvA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/search" CVScreenId="9fdef874-2f0d-40ba-9831-ae4ce2a8f7bb" CvTextArea="470, 685, 153, 18" CvTextArgument="Apple MacBook Pro" CvType="Text" DesignTimeRectangle="458, 433, 716, 470" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='item-grid' parentid='main' tag='DIV' /&gt;" Guid="8cfa983c-8a65-4dbc-ba08-0d5b6ac565a3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Search' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3ddab2dc381c1423c18e4dcfd0545b7d.jpg" xmlns="">0n_AI6crLxU27jdW6OuoURQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
