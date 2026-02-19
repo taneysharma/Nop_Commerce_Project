@@ -4,7 +4,7 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
-    "logout": "[1.0.1]",
+    "logout": "[1.0.3]",
     "NopCommerce": "[1.0.4]",
     "UiPath.System.Activities": "[25.12.0-preview]",
     "UiPath.Testing.Activities": "[25.10.0]"
@@ -39,7 +39,10 @@
       "privateWorkflows": []
     },
     "processOptions": {
-      "ignoredFiles": []
+      "ignoredFiles": [
+        "Cart.xaml",
+        "Payment.xaml"
+      ]
     },
     "fileInfoCollection": [
       {
@@ -47,20 +50,6 @@
         "testCaseId": "68b6a9f1-d0c5-4226-8e6c-033e837913d1",
         "testCaseType": "TestCase",
         "fileName": "TestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "78b7061f-8b2f-4bfe-84e9-80b89b4229d5",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "Cart.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "9a29a9dc-277f-4dc6-a56f-6443f58fee38",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "Payment.xaml"
       }
     ],
     "saveToCloud": false

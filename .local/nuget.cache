@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VC0N3G62+To=",
+  "dgSpecHash": "DERMyWQbtKU=",
   "success": true,
   "projectFilePath": "C:\\Users\\Testing\\Documents\\UiPath\\TestAutomationProject\\.local\\",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "C:\\Users\\Testing\\.nuget\\packages\\enums.net\\4.0.1\\enums.net.4.0.1.nupkg.sha512",
     "C:\\Users\\Testing\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
     "C:\\Users\\Testing\\.nuget\\packages\\extendednumerics.bigdecimal\\2025.1001.2.129\\extendednumerics.bigdecimal.2025.1001.2.129.nupkg.sha512",
-    "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.1\\logout.1.0.1.nupkg.sha512",
+    "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.3\\logout.1.0.3.nupkg.sha512",
     "C:\\Users\\Testing\\.nuget\\packages\\markdig.signed\\0.31.0\\markdig.signed.0.31.0.nupkg.sha512",
     "C:\\Users\\Testing\\.nuget\\packages\\mathnet.numerics.signed\\5.0.0\\mathnet.numerics.signed.5.0.0.nupkg.sha512",
     "C:\\Users\\Testing\\.nuget\\packages\\microsoft.applicationinsights\\2.21.0\\microsoft.applicationinsights.2.21.0.nupkg.sha512",

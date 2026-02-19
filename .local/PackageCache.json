@@ -334,14 +334,14 @@
     {
       "Package": {
         "Id": "logout",
-        "Version": "1.0.1"
+        "Version": "1.0.3"
       },
       "Assemblies": [
         "C:\\Users\\Testing\\.nuget\\packages\\csvhelper\\33.0.1\\lib/net8.0/CsvHelper.dll",
         "C:\\Users\\Testing\\.nuget\\packages\\dynamicexpresso.core\\2.12.0\\lib/netstandard2.0/DynamicExpresso.Core.dll",
-        "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.1\\lib/net8.0-windows7.0/logout.Core.dll",
-        "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.1\\lib/net8.0-windows7.0/logout.dll",
-        "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.1\\lib/net8.0-windows7.0/logout_Expressions.dll",
+        "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.3\\lib/net8.0-windows7.0/logout.Core.dll",
+        "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.3\\lib/net8.0-windows7.0/logout.dll",
+        "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.3\\lib/net8.0-windows7.0/logout_Expressions.dll",
         "C:\\Users\\Testing\\.nuget\\packages\\markdig.signed\\0.31.0\\lib/net6.0/Markdig.Signed.dll",
         "C:\\Users\\Testing\\.nuget\\packages\\microsoft.applicationinsights\\2.21.0\\lib/netstandard2.0/Microsoft.ApplicationInsights.dll",
         "C:\\Users\\Testing\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.3\\lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll",
@@ -483,7 +483,7 @@
         "C:\\Users\\Testing\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
         "C:\\Users\\Testing\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.dll"
       ],
-      "Path": "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.1"
+      "Path": "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.3"
     }
   ],
   "Conflicts": [],
@@ -605,7 +605,7 @@
     },
     "logout": {
       "Id": "logout",
-      "Version": "1.0.1",
+      "Version": "1.0.3",
       "Dependencies": [
         {
           "Item1": "UiPath.System.Activities",
@@ -5238,14 +5238,14 @@
     {
       "Package": {
         "Id": "logout",
-        "Version": "1.0.1"
+        "Version": "1.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.1\\lib\\net8.0-windows7.0\\logout.Core.dll",
-        "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.1\\lib\\net8.0-windows7.0\\logout.dll",
-        "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.1\\lib\\net8.0-windows7.0\\logout_Expressions.dll"
+        "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.3\\lib\\net8.0-windows7.0\\logout.Core.dll",
+        "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.3\\lib\\net8.0-windows7.0\\logout.dll",
+        "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.3\\lib\\net8.0-windows7.0\\logout_Expressions.dll"
       ],
-      "Path": "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.1"
+      "Path": "C:\\Users\\Testing\\.nuget\\packages\\logout\\1.0.3"
     },
     {
       "Package": {

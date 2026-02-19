@@ -196,7 +196,7 @@
           }
         }
       },
-      "logout/1.0.1": {
+      "logout/1.0.3": {
         "type": "package",
         "dependencies": {
           "UiPath.System.Activities": "25.12.0-preview",
@@ -5767,7 +5767,7 @@
           }
         }
       },
-      "logout/1.0.1": {
+      "logout/1.0.3": {
         "type": "package",
         "dependencies": {
           "UiPath.System.Activities": "25.12.0-preview",
@@ -11302,10 +11302,10 @@
         "lib/netstandard2.1/ExtendedNumerics.BigDecimal.xml"
       ]
     },
-    "logout/1.0.1": {
-      "sha512": "FQnxEknlMnbrOfcLF5iWknhzAZ7B95k/z7gIELRqEi89VtDN/i8YLpS0asvgYXPTWXr8t+i83gaNnBV/5jdevg==",
+    "logout/1.0.3": {
+      "sha512": "MoYM/Ncq1dpK7UG7MNWmEzEaa5oFSCKpppHrniRBvoVYl/AHHotUBM2NycQeng0H271IyKraDMshxaDk4/JFNw==",
       "type": "package",
-      "path": "logout/1.0.1",
+      "path": "logout/1.0.3",
       "files": [
         ".nupkg.metadata",
         "content/.project/PackageBindingsMetadata.json",
@@ -11320,8 +11320,10 @@
         "content/.settings/Release/settings-a1b2dac1.json",
         "content/.storage/.runtime/AncestryPersistenceService/0ecf4652-735d-4109-a937-3897a34fda29",
         "content/.storage/.runtime/AncestryPersistenceService/6c3396ab-f74a-4db0-a569-cc40907226da",
+        "content/.storage/.runtime/AncestryPersistenceService/8947cd95-5914-46e1-a427-9c23d63f0f15",
         "content/.storage/.runtime/DesignTimeTargetImagePersistenceService/0ecf4652-735d-4109-a937-3897a34fda29.png",
         "content/.storage/.runtime/DesignTimeTargetImagePersistenceService/6c3396ab-f74a-4db0-a569-cc40907226da.png",
+        "content/.storage/.runtime/DesignTimeTargetImagePersistenceService/8947cd95-5914-46e1-a427-9c23d63f0f15.png",
         "content/NewActivity.xaml",
         "content/logout.Core.pdb",
         "content/logout.xaml",
@@ -11335,6 +11337,18 @@
         "contentFiles/any/any/.objects/TKaQ/.type",
         "contentFiles/any/any/.objects/TKaQ/kPls/.metadata",
         "contentFiles/any/any/.objects/TKaQ/kPls/.type",
+        "contentFiles/any/any/.objects/TKaQ/kPls/2ACE/.data/ObjectRepositoryScreenData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TKaQ/kPls/2ACE/.data/ObjectRepositoryScreenData/.content",
+        "contentFiles/any/any/.objects/TKaQ/kPls/2ACE/.data/ObjectRepositoryScreenData/.hash",
+        "contentFiles/any/any/.objects/TKaQ/kPls/2ACE/.data/ObjectRepositoryScreenData/.images/.design/0-wQZAkYR-UahEMGsQsFdgw",
+        "contentFiles/any/any/.objects/TKaQ/kPls/2ACE/.metadata",
+        "contentFiles/any/any/.objects/TKaQ/kPls/2ACE/.type",
+        "contentFiles/any/any/.objects/TKaQ/kPls/2ACE/XIUL/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TKaQ/kPls/2ACE/XIUL/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TKaQ/kPls/2ACE/XIUL/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TKaQ/kPls/2ACE/XIUL/.data/ObjectRepositoryTargetData/.images/.design/0Jc8-xwRyREOWgdag-PgA7g",
+        "contentFiles/any/any/.objects/TKaQ/kPls/2ACE/XIUL/.metadata",
+        "contentFiles/any/any/.objects/TKaQ/kPls/2ACE/XIUL/.type",
         "contentFiles/any/any/.objects/TKaQ/kPls/HHkR/.data/ObjectRepositoryScreenData/.attributes/SearchHash",
         "contentFiles/any/any/.objects/TKaQ/kPls/HHkR/.data/ObjectRepositoryScreenData/.content",
         "contentFiles/any/any/.objects/TKaQ/kPls/HHkR/.data/ObjectRepositoryScreenData/.hash",
@@ -11357,7 +11371,7 @@
         "lib/net8.0-windows7.0/logout.Core.xml",
         "lib/net8.0-windows7.0/logout.dll",
         "lib/net8.0-windows7.0/logout_Expressions.dll",
-        "logout.1.0.1.nupkg.sha512",
+        "logout.1.0.3.nupkg.sha512",
         "logout.nuspec"
       ]
     },
@@ -22079,7 +22093,7 @@
       "NopCommerce >= 1.0.4 <= 1.0.4",
       "UiPath.System.Activities >= 25.12.0-preview <= 25.12.0-preview",
       "UiPath.Testing.Activities >= 25.10.0 <= 25.10.0",
-      "logout >= 1.0.1 <= 1.0.1"
+      "logout >= 1.0.3 <= 1.0.3"
     ]
   },
   "packageFolders": {
@@ -22118,7 +22132,7 @@
           "logout": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.0.1, 1.0.1]"
+            "version": "[1.0.3, 1.0.3]"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Users\\Testing\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
