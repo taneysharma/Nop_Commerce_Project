@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="QK752gnRMkKa6_0rnti1ng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="PDVlIOUyhE6Armk7Rwdj_w" Reference="xcsNvZlMwUGTfKN4ZfG1wA/4o4_oxD_eEqdHkn8oTnMtQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/apple-macbook-pro" CVScreenId="a5229ac2-7712-49b5-95a8-790dec12f722" DesignTimeRectangle="709, 522, 149, 43" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='add-to-cart-button-4' tag='BUTTON' /&gt;" Guid="5b895104-cfd8-4bb2-8f28-99b097b56336" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Apple MacBook Pro' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="b0e0d844e7e89a76bc94bbf8139a22a0.jpg" xmlns="">02tmfKs-CRUq4xNGiCVWSBg</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.nopcommerce.com/apple-macbook-pro" CVScreenId="a5229ac2-7712-49b5-95a8-790dec12f722" DesignTimeRectangle="709, 422, 149, 43" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='add-to-cart-button-4' tag='BUTTON' /&gt;" Guid="5b895104-cfd8-4bb2-8f28-99b097b56336" ScopeSelectorArgument="&lt;html app='chrome.exe' title='nopCommerce demo store. Apple MacBook Pro' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b0e0d844e7e89a76bc94bbf8139a22a0.jpg" xmlns="">0QGLU_0QGzEOe_w49u2ypTA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

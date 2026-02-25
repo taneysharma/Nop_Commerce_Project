@@ -4,10 +4,13 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
-    "logout": "[1.0.1]",
+    "atuipath_utilities": "[1.0.6]",
+    "logout": "[1.0.3]",
     "NopCommerce": "[1.0.4]",
+    "ReporterForUiPath.Activities": "[3.0.1]",
     "UiPath.System.Activities": "[25.12.0-preview]",
-    "UiPath.Testing.Activities": "[25.10.0]"
+    "UiPath.Testing.Activities": "[25.10.0]",
+    "UiPath.UIAutomation.Activities": "[26.1.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -39,7 +42,10 @@
       "privateWorkflows": []
     },
     "processOptions": {
-      "ignoredFiles": []
+      "ignoredFiles": [
+        "Cart.xaml",
+        "Payment.xaml"
+      ]
     },
     "fileInfoCollection": [
       {
@@ -49,18 +55,24 @@
         "fileName": "TestCase.xaml"
       },
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "78b7061f-8b2f-4bfe-84e9-80b89b4229d5",
+        "editingStatus": "Publishable",
+        "testCaseId": "83e1fe3c-a096-421c-807c-59ebaa5ab6b8",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "Cart.xaml"
+        "fileName": "TestCases\\TestCase1.xaml"
       },
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "9a29a9dc-277f-4dc6-a56f-6443f58fee38",
+        "editingStatus": "Publishable",
+        "testCaseId": "8dbdbe73-052f-41c9-9eb4-79538d35d544",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "Payment.xaml"
+        "fileName": "TestCases\\TestCase2.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4e49a6ac-8833-4874-b67a-5c98c143e14e",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\mainfile.xaml"
       }
     ],
     "saveToCloud": false
